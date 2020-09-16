@@ -6,6 +6,7 @@ import 'package:flash_chat/screens/chat_screen.dart';
 
 import 'screens/chat_screen.dart';
 import 'screens/login_screen.dart';
+import 'screens/welcome_screen.dart';
 
 void main() => runApp(FlashChat());
 
@@ -18,9 +19,9 @@ class FlashChat extends StatelessWidget {
           body1: TextStyle(color: Colors.black54),
         ),
       ),
-      initialRoute: 'welcome_screen',
+      initialRoute: WelcomeScreen.id,
       routes: {
-        'welcome_screen': (context) => WelcomeScreen(),
+        WelcomeScreen.id: (context) => WelcomeScreen(),
         'registration_screen': (context) => RegistrationScreen(),
         'login_screen': (context) => LoginScreen(),
         'chat_screen': (context) => ChatScreen(),
