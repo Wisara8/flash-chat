@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766587604077",
+    "firebase_url": "https://flash-chat-ab23c.firebaseio.com",
+    "project_id": "flash-chat-ab23c",
+    "storage_bucket": "flash-chat-ab23c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766587604077:android:4b68c713287944e5534364",
+        "android_client_info": {
+          "package_name": "co.samran.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766587604077-agt0lpb6fjlripmt5t6i7m5206kqk2ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU4B32FYp9Ty_k31L7PcTwJdK_realIsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766587604077-agt0lpb6fjlripmt5t6i7m5206kqk2ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
